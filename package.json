@@ -4,15 +4,19 @@
   "description": "[![Actions Status](https://github.com/Aktan007/frontend-project-46/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Aktan007/frontend-project-46/actions)",
   "main": "index.js",
   "type": "module",
-  "bin": {
-    "gendiff -h": "bin/gendiff.js"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "gendiff": "bin/gendiff.js"
   },
   "keywords": [
     "hello"
   ],
   "author": "Aktan",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "comander": "^0.0.1-security",
+    "commander": "^12.1.0"
+  }
 }
