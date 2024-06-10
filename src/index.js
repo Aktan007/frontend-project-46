@@ -1,5 +1,6 @@
 import path from 'node:path'
 import { readFileSync } from 'node:fs'
+import getDiffTree from './getDiff.js';
 
 const gendiff = (filepath1, filepath2) => {
     const fullFilepath1 = path.resolve(filepath1);

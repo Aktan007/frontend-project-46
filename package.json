@@ -17,6 +17,7 @@
   "license": "ISC",
   "dependencies": {
     "comander": "^0.0.1-security",
-    "commander": "^12.1.0"
+    "commander": "^12.1.0",
+    "lodash": "^4.17.21"
   }
 }
